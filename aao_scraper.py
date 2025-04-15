@@ -35,10 +35,10 @@ class AAOScraper:
 
     def get_page(self, page_num=0):
         params = {
-            'uri_1': '22',
+            'uri_1': '19',
             'm': 'All',
             'y': 'All',
-            'items_per_page': '10',
+            'items_per_page': '100',
             'page': page_num
         }
         
