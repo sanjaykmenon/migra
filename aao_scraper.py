@@ -113,7 +113,7 @@ class AAOScraper:
 
     def scrape(self, max_pages=100):  # Added max_pages parameter for safety
         logging.info("Starting AAO decisions scraper")
-        page_num = 0
+        page_num = 33
         no_pdfs_count = 0
         
         while page_num < max_pages:
