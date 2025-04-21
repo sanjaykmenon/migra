@@ -248,7 +248,7 @@ def main(pdf_folder: str):
 
 
         try:
-            db_table_write = supabase.table("oa1_aao").insert(document_info_dict).execute()
+            db_table_write = supabase.table("eb1_case_data").insert(document_info_dict).execute()
 
         except ValueError as e:
             print(f"Error inserting data: {e}")

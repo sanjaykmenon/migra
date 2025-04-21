@@ -1,0 +1,13 @@
+requests>=2.0
+beautifulsoup4>=4.0
+openai
+pydantic
+PyMuPDF
+instructor
+nltk
+spacy==3.8.5
+lancedb
+pyarrow
+pandas
+python-dotenv
+supabase
